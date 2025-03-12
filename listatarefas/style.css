@@ -1,0 +1,143 @@
+:root {
+    --primary-color: rgb(66, 129, 218);
+}
+
+* {
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+}
+
+.container {
+    max-width: 640px;
+    margin: 40px auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+form input, form label, form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+
+form input {
+    font-size: 24px;
+    height: 50px;
+    padding: 0 20px;
+}
+
+form input:focus {
+    outline: 1px solid var(--primary-color);
+}
+
+form button {
+    border: none;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 19px;
+    font-weight: 700;
+    height: 50px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+form button:hover {
+    background: var(--primary-color);
+}
+
+form button:active {
+    background: red;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-family: 'Merriweather';
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+h3 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: 'Merriweather';
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.add-tarefa {
+    background-color: rgb(85, 195, 136);
+    border-radius: 10px;
+    height: 30px;
+    margin-left: 5px;
+}
+
+.input-nt {
+    border-radius: 3px;
+    height: 25px;
+    width: 250px;
+    margin-left: 25px;
+}
+
+.seletorCores {
+    background-color: #fff;
+    max-width: 200px;
+    height: 100px;
+    margin-top: 200px;
+    border-radius: 10px;
+}
+
+h6 {
+    padding-top: 10px;
+    text-align: center;
+    font-size: small;
+}
+
+#btn-vrml {
+    height: 15px;
+    width: 5px;
+    background-color: red;
+    margin-left: 30px;
+    border-radius: 3px;
+}
+
+#btn-azl {
+    height: 15px;
+    width: 5px;
+    background-color: blue;
+    margin-left: 8px;
+    border-radius: 3px;
+}
+
+#btn-grn {
+    height: 15px;
+    width: 5px;
+    background-color: green;
+    margin-left: 8px;
+    border-radius: 3px;
+}
+
+#btn-prt {
+    height: 15px;
+    width: 5px;
+    background-color: black;
+    margin-left: 8px;
+    border-radius: 3px;
+}
+
+#btn-ntr {
+    height: 15px;
+    width: 5px;
+    background: var(--primary-color);
+    margin-left: 8px;
+    border-radius: 3px;
+}
