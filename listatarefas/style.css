@@ -89,10 +89,12 @@ h3 {
 }
 
 .seletorCores {
+    position: sticky;
+    bottom: 0;
     background-color: #fff;
     max-width: 200px;
     height: 100px;
-    margin-top: 200px;
+    margin-top: 310px;
     border-radius: 10px;
 }
 
